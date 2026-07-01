@@ -1,0 +1,35 @@
+{
+  "name": "BUNNY MD",
+  "description": "Multi-device WhatsApp Bot with Harsh Persona",
+  "repository": "https://github.com/your-username/your-repo",
+  "logo": "https://i.ibb.co/Mdg2Fkd/file-00000000f41871fdb744b8a6b7b612fa.png",
+  "keywords": ["whatsapp", "bot", "baileys", "nodejs"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your Swiftbot generated session ID",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": "∆",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Bot Name",
+      "value": "BUNNY MD",
+      "required": false
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB URI for database storage (optional)",
+      "required": false
+    },
+    "SUPABASE_URL": {
+      "description": "Supabase URL for database storage (optional)",
+      "required": false
+    },
+    "SUPABASE_KEY": {
+      "description": "Supabase Key for database storage (optional)",
+      "required": false
+    }
+  }
+}

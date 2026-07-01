@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Swiftbot Main Engine",
+  "description": "The main operational engine for Swiftbot, a multi-device WhatsApp bot loaded via session ID.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
